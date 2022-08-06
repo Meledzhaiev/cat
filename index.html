@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Найди кота!</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="description">
+            <h1 class="game-name">Игра "Найди - кота!"</h1>
+            <h3>В одной из 9 коробок сидит кот:</h3>
+            <ul>
+                <li>Можно наугад ткнуть в коробку</li>
+                <li>Просто открыть все</li>
+                <li>Либо <a href="https://www.youtube.com/watch?v=hCygZHE8Va0" target="_blank">принять
+                        ответственность</a>
+                </li>
+            </ul>
+        </div>
+        <div class="game">
+            <div class="row-1">
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+                <button type="submit" id="cat">
+                    <img src="closed-box.png" onclick='this.src="cat.png"'/>
+                </button>
+            </div>
+
+            <div class="row-2">
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+            </div>
+
+            <div class="row-3">
+                <button type="submit" id="mem">
+                    <img src="closed-box.png" onclick='this.src="mem.png"'/>
+                </button>
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+                <button type="submit" class="closed-box">
+                    <img src="closed-box.png" onclick='this.src="open-box.png"'/>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="warning">
+            <h1>
+                <strong>ВНИМАНИЕ!!!</strong>
+            </h1>
+            <div class="important">
+                <h3 class="important-info">Очень важная информация:</h3>
+
+                <p><strong>Зачем коты залазят в коробки?</strong> Потому что коробка снимает стресс, в ней уютно и
+                    тепло.
+                    Это
+                    идеальное место, где кот может спрятаться, передохнуть, поспать,
+                    а иной раз и спланировать молниеносную атаку на огромного непредсказуемого примата, с которым ей
+                    приходится
+                    жить
+                </p>
+            </div>
+        </div>
+        <div class="results">
+            <h1>Итоги:</h1>
+            <ul>
+                <li>Вы нашли кота - вы великолепны</li>
+                <li>Научились ответственности.</li>
+                <li>Узнали почему коты так любят коробки.</li>
+                <li>Коты - странные.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
